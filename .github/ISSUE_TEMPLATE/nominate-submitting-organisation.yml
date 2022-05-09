@@ -1,0 +1,37 @@
+name: Nominate a Submitting Organisation
+description: File a nomination for a new Submitting Organisation
+title: "[Nomination]"
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Only one organisation can be nominated per country. The representative can be a MIG-T member, or another nominated expert), JRC, EEA and DG ENV.  \n Please fill the following filed with the required information.
+    
+  - type: input
+    id: country
+    attributes:
+      label: Country
+    validations:
+      required: true
+
+  - type: input
+    id: organisation
+    attributes:
+      label: Organisation
+    validations:
+      required: true
+
+  - type: input
+    id: contactName
+    attributes:
+      label: Contact name
+    validations:
+      required: true
+
+  - type: input
+    id: contactMail
+    attributes:
+      label: Contact e-mail
+    validations:
+      required: true      
