@@ -1,0 +1,11 @@
+name: Propose a change impacting the content of the INSPIRE registry
+description: Content change proposal
+title: "[Change]"
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please replace these lines with a brief summary of your change proposal. Please remember that this issue template is reserved only to the appointed Submitting Organisations.
+
+        Remember to specify all the required information in order to facilitate the correct evaluation and eventual implementation of the proposed changes. Detailed guidelines and examples proposals are available here.

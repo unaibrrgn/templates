@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Only one organisation can be nominated per country. The representative can be a MIG-T member, or another nominated expert), JRC, EEA and DG ENV.  \n Please fill the following filed with the required information.
+        Only one organisation can be nominated per country. The representative can be a MIG-T member, or another nominated expert), JRC, EEA and DG ENV. Please fill the following filed with the required information.
     
   - type: input
     id: country
