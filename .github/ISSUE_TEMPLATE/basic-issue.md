@@ -1,9 +1,9 @@
 ---
 
-name: "Discussion for registry issue"
-about: "Request a change on the issue"
-title: "Request"
+name: "Re3gistry discussion"
+about: "Start a discussion or raise a question on the Re3gistry"
+title: "Discussion"
 
 ---
 
-Please describe the problem
+Please replace these lines with your question or discussion topic.

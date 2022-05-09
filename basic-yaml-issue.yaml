@@ -1,0 +1,11 @@
+name: Re3gistry discussion
+description: Start a discussion or raise a question on the Re3gistry
+body:
+  - type: textarea
+    id: body
+    attributes:
+      label: What's the issue?
+      description: Tell us a bit more about your concern.
+      placeholder: Explain your problem!
+    validations:
+      required: true
