@@ -10,3 +10,30 @@ body:
       description: Explain the problem behind this proposal. If the problem has already been discussed externally, please add a link. Source code or data snippets, diagrams, graphics that illustrate the problem are welcome.
     validations:
       required: true
+
+  - type: textarea
+    id: proposedChange
+    attributes:
+      label: Proposed change
+      description: Explain what should be changed in the software. Mockups, screenshots, diagrams or other graphics are welcome.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Describe alternative solutions/features that have been considered.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: funding
+    attributes:
+      label: Is there full or partial funding available for implementing this proposal?
+      multiple: true
+      options:
+        - Full
+        - Partial
+    validations:
+      required: true
