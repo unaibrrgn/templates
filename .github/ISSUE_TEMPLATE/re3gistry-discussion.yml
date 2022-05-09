@@ -1,6 +1,6 @@
 name: Re3gistry discussion
 description: Start a discussion or raise a question on the Re3gistry
-title: "Issue discussion"
+title: "[Issue discussion]"
 labels: ["documentation"]
 body:
   - type: textarea

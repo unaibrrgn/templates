@@ -1,0 +1,12 @@
+name: Re3gistry Improvement Proposal
+description: Propose an improvement of the Re3gistry
+title: "[Improvement proposal]"
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: background
+    attributes:
+      label: Background and Motivation
+      description: Explain the problem behind this proposal. If the problem has already been discussed externally, please add a link. Source code or data snippets, diagrams, graphics that illustrate the problem are welcome.
+    validations:
+      required: true
