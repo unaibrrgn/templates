@@ -1,5 +1,5 @@
 name: Nominate a Control Body member
-description: Control Body is made of a small group of nominated register experts. More info available [here](http://inspire.ec.europa.eu/id/document/tor/registry-control-body-and-submittingorganisations/1.0).
+description: File a nomination for a new Control Body member
 title: "[Nomination]"
 labels: ["documentation"]
 body:
@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please fill the following filed with the required information.
+        Control Body is made of a small group of nominated register experts. More info available [here](http://inspire.ec.europa.eu/id/document/tor/registry-control-body-and-submittingorganisations/1.0). Please fill the following filed with the required information.
 
   - type: input
     id: country
