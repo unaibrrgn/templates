@@ -35,6 +35,7 @@ body:
       options:
         - Full
         - Partial
+        - None
     validations:
       required: true
 
