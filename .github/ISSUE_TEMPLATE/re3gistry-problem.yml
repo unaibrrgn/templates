@@ -1,0 +1,57 @@
+name: Re3gistry problem/bug report
+description: Open an issue to report a problem with the Re3gistry
+title: "[Problem report]"
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of steps to reproduce your issue
+      description: Add the steps we can use to reproduce your exact issue.
+    validations:
+      required: false
+
+  - type: textarea
+    id: browser
+    attributes:
+      label: Browser version used
+      description: Add the browser version used.
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot of the problem
+      description: Take a screenshot illustrating the problem
+    validations:
+      required: false
+
+  - type: textarea
+    id: testReport
+    attributes:
+      label: Test report
+      description: Incluse the test report (Ideally as an attachment)
+    validations:
+      required: false
+
+  - type: textarea
+    id: testFailed
+    attributes:
+      label: Name of the test that failed or better
+      description: change the Level of Detail in the Report by clicking on All Details, then scroll down to the failed test and copy the Link on the right-hand side of the Assertion URI
+    validations:
+      required: false
+
+  - type: textarea
+    id: URL
+    attributes:
+      label: URL of your service / The file you have uploaded or referenced (attachment)
+      description: Incluse the test report (Ideally as an attachment)
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        If your service is protected or you have confidential data that you cannot upload here, you can request an email address to which you can send URLs / files. Please note that issues cannot be investigated for services/datasets that we cannot access.
