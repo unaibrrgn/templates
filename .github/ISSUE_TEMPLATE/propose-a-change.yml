@@ -53,7 +53,7 @@ body:
     validations:
       required: false   
 
-  - type: input
+  - type: textarea
     id: material 
     attributes:
       label: Diagrams, mockups or screenshots that illustrate the proposal
