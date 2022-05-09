@@ -31,9 +31,17 @@ body:
     id: funding
     attributes:
       label: Is there full or partial funding available for implementing this proposal?
-      multiple: true
+      multiple: false
       options:
         - Full
         - Partial
     validations:
       required: true
+
+  - type: textarea
+    id: additionalInfo
+    attributes:
+      label: This is an optional section for additional information.
+      description: Describe the impact of the improvement, known risks or compatibility issues on existing deployments. (time) constraints, if this proposal is fully or partially funded.
+    validations:
+      required: false
