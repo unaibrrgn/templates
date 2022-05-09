@@ -9,35 +9,35 @@ body:
       value: |
         Please fill the following filed with the required information.
 
-  - type: textarea
+  - type: input
     id: country
     attributes:
       label: Country
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: Affiliation
     attributes:
       label: Affiliation
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: contactName
     attributes:
       label: Contact name
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: contactMail
     attributes:
       label: Contact e-mail
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: expertise
     attributes:
       label: Expertise
