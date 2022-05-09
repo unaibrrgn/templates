@@ -11,7 +11,7 @@ body:
     validations:
       required: false
 
-  - type: textarea
+  - type: input
     id: browser
     attributes:
       label: Browser version used
@@ -35,7 +35,7 @@ body:
     validations:
       required: false
 
-  - type: textarea
+  - type: input
     id: testFailed
     attributes:
       label: Name of the test that failed or better
@@ -43,7 +43,7 @@ body:
     validations:
       required: false
 
-  - type: textarea
+  - type: input
     id: URL
     attributes:
       label: URL of your service / The file you have uploaded or referenced (attachment)

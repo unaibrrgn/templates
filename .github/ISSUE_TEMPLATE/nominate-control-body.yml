@@ -3,7 +3,6 @@ description: File a nomination for a new Control Body member
 title: "[Nomination]"
 labels: ["documentation"]
 body:
-
   - type: markdown
     attributes:
       value: |
