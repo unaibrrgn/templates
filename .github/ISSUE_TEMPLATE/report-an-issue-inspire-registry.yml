@@ -1,0 +1,34 @@
+name: Report an issue, or ask a question on the user interface, API… of the INSPIRE registry
+description: Report an issue or ask a question not impacting the content of the INSPIRE registry (e.g. provide feedback related to the INSPIRE registry service user interface).
+title: "[Report]"
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: Description
+      description: Describe the steps to reproduce your issue.
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version used
+    validations:
+      required: true   
+
+  - type: input
+    id: URI
+    attributes:
+      label: URI of the reference code / URL of the page
+    validations:
+      required: false  
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: A screenshot illustrating the problem.
+    validations:
+      required: false   
