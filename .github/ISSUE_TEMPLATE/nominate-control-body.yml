@@ -1,0 +1,45 @@
+name: Nominate a Control Body member
+description: Control Body is made of a small group of nominated register experts. More info available [here](http://inspire.ec.europa.eu/id/document/tor/registry-control-body-and-submittingorganisations/1.0).
+title: "[Nomination]"
+labels: ["documentation"]
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Please fill the following filed with the required information.
+
+  - type: textarea
+    id: country
+    attributes:
+      label: Country
+    validations:
+      required: true
+
+  - type: textarea
+    id: Affiliation
+    attributes:
+      label: Affiliation
+    validations:
+      required: true
+
+  - type: textarea
+    id: contactName
+    attributes:
+      label: Contact name
+    validations:
+      required: true
+
+  - type: textarea
+    id: contactMail
+    attributes:
+      label: Contact e-mail
+    validations:
+      required: true
+
+  - type: textarea
+    id: expertise
+    attributes:
+      label: Expertise
+    validations:
+      required: true
